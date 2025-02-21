@@ -1,0 +1,43 @@
+# FastAPI and Related
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# HTTP and Networking
+aiohttp==3.9.1
+httpx==0.25.2
+python-multipart==0.0.6
+
+# Configuration
+python-dotenv==1.0.0
+
+# AI Integration
+openai==1.3.7
+
+# Utilities
+tenacity==8.2.3
+python-dateutil==2.8.2
+
+# Development Dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+isort==5.12.0
+mypy==1.7.1
+ruff==0.1.6
+
+# Additional Dependencies
+aiosignal==1.3.1
+attrs==23.1.0
+certifi==2023.11.17
+charset-normalizer==3.3.2
+click==8.1.7
+frozenlist==1.4.0
+h11==0.14.0
+idna==3.4
+multidict==6.0.4
+sniffio==1.3.0
+starlette==0.27.0
+typing_extensions==4.8.0
+yarl==1.9.3
