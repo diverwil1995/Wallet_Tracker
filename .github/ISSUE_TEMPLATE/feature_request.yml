@@ -1,0 +1,33 @@
+name: Feature Request
+description: Suggest an idea for this project
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 相關問題
+      description: 這個功能請求是否與某個問題有關？請描述。
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 建議解決方案
+      description: 請描述您想要的解決方案
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案
+      description: 描述您考慮過的替代解決方案
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 優先級
+      options:
+        - High（高）
+        - Medium（中）
+        - Low（低）
+    validations:
+      required: true

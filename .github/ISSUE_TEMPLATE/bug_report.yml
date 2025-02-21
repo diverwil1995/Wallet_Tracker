@@ -1,0 +1,44 @@
+name: Bug Report
+description: Report a bug to help us improve
+labels: ["type:bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝您填寫 bug 回報！
+  - type: input
+    id: description
+    attributes:
+      label: 問題描述
+      description: 請簡短描述您遇到的問題
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 重現步驟
+      description: 請描述如何重現這個問題
+      placeholder: |
+        1. 前往 '...'
+        2. 點擊 '...'
+        3. 捲動到 '...'
+        4. 出現錯誤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期行為
+      description: 請描述您預期應該發生的事
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 嚴重程度
+      options:
+        - Critical（緊急）
+        - Major（重要）
+        - Minor（輕微）
+    validations:
+      required: true
